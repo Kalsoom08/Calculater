@@ -12,6 +12,7 @@ form{
     background-color: rgba(0, 0, 0, 0.523);
     border-radius: 10%;
     }
+   
 
 input{
     width: 60px;
@@ -24,11 +25,20 @@ input{
     font-size: larger;
     font-weight: bolder;
     box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.475);
+    
    }
 #text{
     width: 290px;
     height: 70px;
-    background-color: rgb(216, 177, 129);
+    background-color: olive;
     color: black;
     text-align: right;
+    
+}
+input:hover{
+    background-color: rgb(50, 205, 117);
+    color: #000000;
+}
+input:active{
+    background-color: rgb(18, 180, 180);
 }
