@@ -30,7 +30,7 @@ input{
 #text{
     width: 290px;
     height: 70px;
-    background-color: olive;
+    background-color: rgb(141, 141, 5);
     color: black;
     text-align: right;
     
@@ -40,9 +40,14 @@ input:hover{
     color: #000000;
 }
 input:active{
-    background-color: rgb(18, 180, 180);
+    background-color: rgb(130, 0, 252);
+    color: #ffffff;
 }
 #C{
     background-color: rgb(202, 35, 35);
     
+}
+#C:active{
+    background-color: rgb(130, 0, 252);
+    color: #ffffff;
 }
