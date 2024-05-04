@@ -1,12 +1,12 @@
 .body{
     background-color: rgba(0, 0, 0, 0.523);
-    margin-top: 70px;
+    margin-top:60px;
 }
 form{
     /* border: 1px solid black; */
-    width:30% ;
-    padding-top:50px;
-    padding-bottom: 50px;
+    width: 330px ;
+    padding-top:30px;
+    padding-bottom: 30px;
     text-align: center;
     margin: 0% auto;
     background-color: rgba(0, 0, 0, 0.523);
@@ -15,7 +15,7 @@ form{
    
 
 input{
-    width: 60px;
+    width: 50px;
     height: 50px;
     border-radius: 10px;
     margin:8px;
@@ -24,11 +24,11 @@ input{
     color:#ffffff;
     font-size: larger;
     font-weight: bolder;
-    box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.475);
+    box-shadow: 2px 1px 2px 2px black;
     
    }
 #text{
-    width: 290px;
+    width: 260px;
     height: 70px;
     background-color: rgb(141, 141, 5);
     color: black;
@@ -43,11 +43,13 @@ input:active{
     background-color: rgb(130, 0, 252);
     color: #ffffff;
 }
-#C{
-    background-color: rgb(202, 35, 35);
-    
+#c{
+    width: 120px;
+    background-color: rgb(181, 38, 38);
 }
-#C:active{
-    background-color: rgb(130, 0, 252);
-    color: #ffffff;
+#c:hover{
+    background-color: rgb(50, 205, 117);
+    color: #000000;
 }
+#c:active{background-color: rgb(130, 0, 252);
+    color: #ffffff;}
